@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Gestor de convivencia</title>
+    <link rel="stylesheet" href="/estilos/convivencia.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 caja-menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                  </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>
+                  <nav class="nav">
+                    <a class="nav-link active" aria-current="page" href="#">Inico</a>
+                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">Comunidad</a>
+                  </nav>
+<!--Inicio caja logo superior-->
+        </div>
+            <div class="col-12 col-md-12 caja_logo">
+                <br>
+                <div class="caja-logo-interna">
+                    <img src="img/imagen.2.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+<!--Inicio caja formulario-->
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-md-1 caja-asignacion1"></div>
+            <div class="col-12 col-md-10 caja-asignacion2"">
+                <nav class="barra-asignacion">
+                    <form class="formulario-asignacion">
+                        <button class="btn btn-sm btn-outline-secondary me-2" type="button">Crear caso</button>
+                        <button class="btn btn-sm btn-outline-secondary me-2" type="button">Asignar cita</button>
+                        <button class="btn btn-sm btn-outline-secondary me-2" type="button">Gestionar agenda</button>
+                    </form>
+                </nav>
+            </div>
+            <div class="col-12 col-md-1 caja-asignacion3"></div>
+        </div>
+    </div>
+    <br><br>
+    <!--Inicio caja formulario casos-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-1 caja-casos1"></div>
+            <div class="col-12 col-md-10 caja-casos2"">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                        <label for="validacion-fecha" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="validacion-fecha" value="Mark" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validation_numerocaso" class="form-label">Numero de caso</label>
+                        <input type="text" class="form-control" id="validation_numerocaso" value="" required>
+                        <div class="valid-feedback">
+                          Looks good!
+                        </div>
+                      </div>  
+
+                    <div class="col-md-4">
+                      <label for="validacion-caso1" class="form-label">Nombres</label>
+                      <input type="text" class="form-control" id="validacion-caso1" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validacion-caso2" class="form-label">Apellidos</label>
+                      <input type="text" class="form-control" id="validacion-caso2" value="" required>
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <label for="validacion-casousuario" class="form-label"> #Id estudiante</label>
+                      <div class="input-group has-validation">
+                        <input type="text" class="form-control" id="validacion-casousuario" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please choose a username.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                        <label>Tipo de caso</label>
+                        <select class="form-select" aria-label="Tipo-de-caso">
+                            <option selected>seleccionar</option>
+                            <option value="1">Leve</option>
+                            <option value="2">Moderada</option>
+                            <option value="3">Grave</option>
+                          </select>
+                    </div>
+                    <div class="col-8">
+                        <label>Descripcion del caso</label>
+                        <div class="caja-descripcion">
+                            <textarea class="Descripcion-caso" id="Descripcion-caso"  cols="35" rows="2"></textarea>
+                        </div>
+                    </div>
+                    <br><br><br><br><br>
+                    <div class="col-12 boton-guardar">
+                      <button class="btn btn-primary" type="submit">Guardar</button>
+                    </div>
+                    </form>
+            </div>
+            </div>
+            <div class="col-12 col-md-1 caja-casos3"></div>
+        </div>
+        <br><br>
+    
+    <!--Inicio Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+
+    <div class="text-center p-2" style="background-color: rgba(33, 66, 114, 0.261);">
+        <a class="text-reset fw-bold" >Contactanos</a>
+    </div>
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-6 col mb-4 caja-contacto">
+            <!-- Content -->
+            <p>
+              Tunja, Boyacá, Colombia.
+            </p>
+            <p>
+                atencionalusuario@semillasdelsaber.com
+            </p>
+            <p>
+                365-111-1111
+            </p>
+          </div>
+         
+          <!-- Grid column -->
+          <div class="col-6 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Solicita información</h6>
+            <form>
+                <!-- Name input -->
+                <div class="form-outline mb-4">
+                  <input type="text" id="form4Example1" class="form-control" />
+                  <label class="form-label" for="form4Example1">Nombre</label>
+                </div>
+              
+                <!-- Email input -->
+                <div class="form-outline mb-4">
+                  <input type="email" id="form4Example2" class="form-control" />
+                  <label class="form-label" for="form4Example2">Email</label>
+                </div>
+              
+                <!-- Message input -->
+                <div class="form-outline mb-4">
+                  <textarea class="form-control" id="form4Example3" rows="2"></textarea>
+                  <label class="form-label" for="form4Example3">Asunto</label>
+                </div>
+            
+                <button type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
+              </form>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" >Desarrollado por: Union grupo 2 y 6.</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+</html>
