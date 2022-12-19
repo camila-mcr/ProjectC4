@@ -1,0 +1,33 @@
+.caja-logo-interna{
+    height: 160px;
+    position: relative;
+}
+.caja-logo-interna img{
+    height: 150px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.caja-menu{
+    background-color: rgba(86, 117, 167, 0.772);
+}
+.nav-link{
+    color: black;
+}
+
+svg{
+    position:relative;
+    left: 90%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.caja-asignacion2{
+    text-align: center;
+}
+.boton-guardar{
+    text-align: center;
+}
+

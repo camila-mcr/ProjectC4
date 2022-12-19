@@ -1,0 +1,19 @@
+.caja_menu2{
+    height: 100px;
+    position: relative;
+}
+.caja-logo{
+    height: 150px;
+    position: relative;
+}
+.caja-logo img{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+input{
+    height: 40px;
+}
+
